@@ -1,0 +1,51 @@
+{
+	"name": "@gtamasmolnar/cli-alerts",
+	"version": "1.0.0",
+	"description": "Cross platform CLI Alerts with colors & colored symbols for success, info, warning, error. Works on macOS, Linux, and Windows.",
+	"exports": "./dist/index.js",
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/@gtamasmolnar"
+	},
+	"type": "module",
+	"keywords": [
+		"cli-alerts",
+		"Tamas Molnar",
+		"gtamasmolnar"
+	],
+	"repository": {
+		"type": "git",
+		"url": "gtamasmolnar/cli-alerts"
+	},
+	"author": "Tamas Molnar",
+	"license": "MIT",
+	"files": [
+		"dist"
+	],
+	"dependencies": {
+		"chalk": "^5.2.0",
+		"log-symbols": "^5.1.0"
+	},
+	"devDependencies": {
+		"@types/node": "^18.15.11",
+		"@typescript-eslint/eslint-plugin": "5.57.0",
+		"@typescript-eslint/parser": "5.57.0",
+		"eslint": "^8.37.0",
+		"eslint-config-async": "^2.0.1",
+		"eslint-config-prettier": "^8.8.0",
+		"eslint-plugin-import": "^2.27.5",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-prettier": "^4.2.1",
+		"prettier": "2.8.7",
+		"ts-node": "^10.9.1",
+		"typescript": "^5.0.3"
+	},
+	"engines": {
+		"node": ">=18.0.0",
+		"npm": ">=9.0.0"
+	},
+	"scripts": {
+		"build": "tsc",
+		"test": "node ./dist/test.js",
+		"lint": "eslint . --ext .ts"
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"workbench.colorCustomizations": {
+		"activityBar.background": "#5F090F",
+		"titleBar.activeBackground": "#860D15",
+		"titleBar.activeForeground": "#FFFBFC"
+	},
+	"cSpell.words": ["Awais", "gtamasmolnar", "gtamo"],
+	"dotenv.enableAutocloaking": false
+}
